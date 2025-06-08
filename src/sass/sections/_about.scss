@@ -49,12 +49,26 @@
 
       &-text {
         text-align: left;
+        line-height: 1.6; /* Mejor espaciado entre líneas - NUEVO */
+        
+        /* Alineación justificada solo en pantallas grandes - NUEVO */
+        @media (min-width: 992px) {
+          text-align: justify;
+          text-justify: inter-word;
+        }
 
         @include respond(tab-port) {
           text-align: left;
         }
         @include respond(tab-port-sm) {
           text-align: center;
+        }
+
+        /* Estilos para los hobbies - NUEVO */
+        .hobby {
+          display: inline-block;
+          margin-right: 8px;
+          white-space: nowrap;
         }
 
         &--important {

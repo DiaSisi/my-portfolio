@@ -75,4 +75,59 @@
       }
     }
   }
-}
+
+    .project-description {
+      font-size: 1.8rem;
+      line-height: 1.7;
+      
+      p {
+        margin-bottom: 1.5rem;
+      }
+    }
+
+    .project-features {
+      padding-left: 2.5rem;
+      margin: 2rem 0;
+      
+      li {
+        font-size: 1.7rem;
+        margin-bottom: 1.2rem;
+        position: relative;
+        
+        &::before {
+          content: "•";
+          position: absolute;
+          left: -1.5rem;
+          color: $secondary-color;
+          font-size: 2rem;
+        }
+      }
+    }
+
+    .project-closing {
+      margin-top: 2rem;
+      font-style: italic;
+    }
+
+    .project-actions {
+      display: flex;
+      gap: 2rem;
+      margin-top: 3rem;
+      
+      .cta-btn {
+        padding: 1.2rem 2.5rem;
+        font-size: 1.7rem;
+      }
+      
+      @include respond(phone) {
+        flex-direction: column;
+        gap: 1.5rem;
+        
+        .cta-btn {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+
