@@ -1,9 +1,4 @@
-<div align="center">
-<img src="assets/favicon.png" alt="Smeraldo Flower" width="200">
 # Diana's Developer Portfolio 🌟
-
-[![Live Demo](https://img.shields.io/badge/Demo-Live-green?style=for-the-badge)](https://your-portfolio-url.com)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 A responsive portfolio showcasing my frontend development projects and design skills.
 
