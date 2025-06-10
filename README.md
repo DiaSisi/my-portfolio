@@ -17,10 +17,10 @@ Diplomatic workflow database
 **Tech:** SQL Server, C#, ASP.NET
 
 ## Features
-✔ Responsive design (mobile/tablet/desktop)  
+✔ Responsive design (mobile/tablet/desktop) 
 ✔ CSS animations and interactive elements  
 ✔ Project case studies  
-✔ Direct contact links  
+✔ Direct contact links      
 
 ## Setup
 ```bash
