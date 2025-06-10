@@ -1,12 +1,15 @@
-<!--
-  Hello!
-  -
-  Simplefolio is a clean and responsive portfolio template for Developers!
-  -
--->
 <!DOCTYPE html>
 <html lang="en" class="sr">
   <head>
+    <!-- EN LA PRIMERA LÍNEA DEL <head> -->
+    <base href="/">
+    <script>
+      // Redirección forzada para evitar caché
+      if(window.location.href.includes('README')) {
+        window.location.href = '/';
+      }
+    </script>
+    
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
