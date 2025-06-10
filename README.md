@@ -16,12 +16,6 @@ Responsive promotional website
 Diplomatic workflow database  
 **Tech:** SQL Server, C#, ASP.NET
 
-## Features
-✔ Responsive design (mobile/tablet/desktop) 
-✔ CSS animations and interactive elements  
-✔ Project case studies  
-✔ Direct contact links      
-
 ## Setup
 ```bash
 git clone https://github.com/DiaSisi/portfolio.git
