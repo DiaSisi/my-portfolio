@@ -4,7 +4,6 @@ on:
     branches: [main]
 
 permissions:
-  contents: read
   pages: write
   id-token: write
 
@@ -20,13 +19,9 @@ jobs:
 
       - name: Build Site
         run: |
-          # Crea carpeta de publicación
           mkdir -p public
-          # Copia TODO el contenido de src (incluyendo ocultos)
-          cp -R src/* public/
-          cp -R src/.[^.]* public/ 2>/dev/null || true
-          # Fuerza que index.html sea la página principal
-          echo "<!DOCTYPE html><html><head><meta http-equiv='refresh' content='0; url=index.html'></head></html>" > public/index.html
+          cp -R simplefolio/* public/
+          cp -R simplefolio/.[^.]* public/ 2>/dev/null || true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
