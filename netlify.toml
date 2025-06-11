@@ -1,2 +1,4 @@
 [build]
-  publish = "simplefolio/"
+  base = "simplefolio"
+  publish = "simplefolio/build" # or dist, depending on your setup
+  command = "npm run build"
